@@ -1,6 +1,6 @@
 # MetFID
 
-Code to train and run MetFID on our benchmark splits. Adapted from the paper Fan, Ziling, et al. "MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation: Z. Fan et al." Metabolomics 16.10 (2020): 104..
+Code to train and run MetFID. Adapted from the paper Fan, Ziling, et al. "MetFID: artificial neural network-based compound fingerprint prediction for metabolite annotation: Z. Fan et al." Metabolomics 16.10 (2020): 104..
 
 MetFID is a feed-forward network that predicts a 528-bit fingerprint (MACCS + OpenBabel FP3 + FP4) from an MS/MS spectrum. Candidates are ranked by how closely their fingerprint matches the predicted one.
 
